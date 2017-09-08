@@ -6,12 +6,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView tvTest;
+    TextView tvtest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tvTest = (TextView) findViewById(R.id.tv);
+        tvtest = (TextView) findViewById(R.id.tv);
     }
 }
